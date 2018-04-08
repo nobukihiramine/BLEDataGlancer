@@ -192,8 +192,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 					{
 						// GUIアイテムへの反映
 						mTextView_Value.setText( strChara );
-						// 切断ボタンを押す
-						mButton_Disconnect.callOnClick();
 					}
 				} );
 				return;
